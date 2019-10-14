@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+
+<properties>
+
+	<!-- BaseURL includes the
+		api and annotations REST values -->
+	<parameter name="BaseURL" value="https://hypothes.is/api/search" />
+	<!-- from the web: 9iXjarQ/topicquests 
+		but n9iXjarQ works-->
+	<parameter name="GroupId" value="6xkx19i3" />
+	
+	<parameter name="DatabaseName" value = "tagomizer_database" />
+	<parameter name="DatabaseSchema" value = "tq_tagomizer" />
+	
+	<list name="Groups">
+		<parameter name="biomed" value="6xkx19i3" />
+		<parameter name="TopicQuests" value="n9iXjarQ" />
+		<parameter name="public" value="__world__" />
+	</list>
+	
+	<parameter name="DeveloperToken" value="6879-7c9Oo5VPdPtPtjn_HSSsA1Llrck-cABJFGL4cj8BKSc" />
+
+	<!-- https://h.readthedocs.io/en/latest/api/realtime/ -->
+	<parameter name="RealtimeURL" value="wss://hypothes.is/ws" />
+</properties>
+
